@@ -11,7 +11,8 @@ import { Button } from "@/components/ui/button";
 const font = Montserrat({ weight: "600", subsets: ["latin"] });
 
 export const LandingNavbar = () => {
-  const { isSignedIn } = useAuth();
+  // const { isSignedIn } = useAuth();
+  const isSignedIn = true;
 
   return (
     <nav className="p-4 bg-transparent flex items-center justify-between">
@@ -20,7 +21,7 @@ export const LandingNavbar = () => {
           <Image fill alt="Logo" src="/logo.png" />
         </div>
         <h1 className={cn("text-2xl font-bold text-white", font.className)}>
-          Omniscient
+          XYZ
         </h1>
       </Link>
       <div className="flex items-center gap-x-2">
