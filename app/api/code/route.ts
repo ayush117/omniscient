@@ -12,7 +12,7 @@ const openai = new OpenAI({
 const instructionMessage: OpenAI.ChatCompletionSystemMessageParam = {
   role: "system",
   content:
-    "You are a genius code generator, you are omniscient. You know everything about software engineering. You must answer only in markdown code snippets. Use code comments for explanations.",
+    "You are a genius code generator, you are xyz. You know everything about software engineering. You must answer only in markdown code snippets. Use code comments for explanations.",
 };
 
 export async function POST(req: Request) {

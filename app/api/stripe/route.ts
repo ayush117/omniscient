@@ -43,7 +43,7 @@ export async function GET() {
           price_data: {
             currency: "EUR",
             product_data: {
-              name: "Omniscient Pro",
+              name: "xyz Pro",
               description: "Unlimited AI Generations",
             },
             unit_amount: 2000,

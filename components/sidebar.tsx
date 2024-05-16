@@ -31,7 +31,7 @@ export default function Sidebar({
           </div>
 
           <h1 className={cn("text-2xl font-bold", poppins.className)}>
-            Omniscient
+            xyz
           </h1>
         </Link>
 

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export function constructMetadata({
-  title = "Omniscient",
+  title = "XYZ",
   description = "Fullstack Software as a Service AI Platform",
 
   noIndex = false,
@@ -14,7 +14,7 @@ export function constructMetadata({
   return {
     title,
     description,
-    applicationName: "Omniscient",
+    applicationName: "xyz",
     keywords: [
       "AI",
       "OpenAI",
